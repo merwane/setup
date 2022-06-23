@@ -3,7 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/root/.oh-my-zsh"
-
+export LANGUAGE="en"
+export LANG="C"
+export LC_MESSAGES="C"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
