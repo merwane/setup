@@ -7,7 +7,6 @@ set ai
 set number
 set hlsearch
 set ruler
-colorscheme peachpuff
 highlight Comment ctermfg=green
 highlight LineNr ctermfg=yellow
 
