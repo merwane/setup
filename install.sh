@@ -7,7 +7,7 @@ apt install -y vim
 apt-get install -y zsh
 apt-get install -y tmux
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 curl -fsSL https://raw.github.com/merwane/dotfiles/master/.zshrc > .zshrc
 curl -fsSL https://raw.github.com/merwane/dotfiles/master/.vimrc > .vimrc
