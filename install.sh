@@ -9,12 +9,12 @@ apt-get install -y tmux
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-curl -fsSL https://raw.github.com/merwane/dotfiles/master/.zshrc > .zshrc
-curl -fsSL https://raw.github.com/merwane/dotfiles/master/.vimrc > .vimrc
-curl -fsSL https://raw.github.com/merwane/dotfiles/master/.tmux.conf > .tmux.conf
+curl -fsSL https://raw.githubusercontent.com/merwane/dotfiles/master/.zshrc > .zshrc
+curl -fsSL https://raw.githubusercontent.com/merwane/dotfiles/master/.vimrc > .vimrc
+curl -fsSL https://raw.githubusercontent.com/merwane/dotfiles/master/.tmux.conf > .tmux.conf
 
 mkdir .vim
 mkdir .vim/autoload
 
-curl -fsSL https://raw.github.com/merwane/dotfiles/master/plug.vim > .vim/autoload/plug.vim
+curl -fsSL https://raw.githubusercontent.com/merwane/dotfiles/master/plug.vim > .vim/autoload/plug.vim
 
