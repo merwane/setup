@@ -1,7 +1,7 @@
 ### Install dependencies
 ```
 sudo apt update
-sudo apt install -y curl git vim
+sudo apt install -y curl git vim tmux
 ```
 
 ### Install zsh+ohmyzsh
