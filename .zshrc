@@ -1,12 +1,24 @@
 export ZSH="$HOME/.oh-my-zsh"
-
-ZSH_THEME="evan"
-
+ZSH_THEME="alanpeabody"
 plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
 
-PURPLE=$(tput setaf 5)
-RESET=$(tput sgr0)
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
-echo -e "\n${PURPLE}QUOTE${RESET}\n"
+source $HOME/.zshenv
+eval "$(rbenv init - zsh)"
+
+# List all files and sort by date modified
+alias lst="lsa -t"
+
+# Git add + commit + push
+alias snap="git add . && git commit -m \"edit\" && git push"
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+# Pyenv 
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
