@@ -51,3 +51,7 @@ mouse-hide-while-typing = true
 window-width = 94
 window-height = 57
 
+# Working dir
+window-inherit-working-directory = false
+
+
