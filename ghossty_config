@@ -1,57 +1,40 @@
-# Base appearance
-background = #300a24
-foreground = #ffffff
-font-family = Ubuntu Mono
-font-size = 16
-
-# Ubuntu purple theme
-selection-background = #b4d5fe
-selection-foreground = #300a24
-
-# Standard colors
-palette = 0=#2E3436
-palette = 1=#CC0000
-palette = 2=#4E9A06
-palette = 3=#C4A000
-palette = 4=#3465A4
-palette = 5=#75507B
-palette = 6=#06989A
-palette = 7=#D3D7CF
-
-# Bright colors
-palette = 8=#555753
-palette = 9=#EF2929
-palette = 10=#8AE234
-palette = 11=#FCE94F
-palette = 12=#729FCF
-palette = 13=#AD7FA8
-palette = 14=#34E2E2
-palette = 15=#EEEEEC
-
-# Padding matches Ubuntu terminal
-window-padding-x = 2
-window-padding-y = 2
-
-# Window styling
-window-theme = dark
-window-decoration = true
-window-width = 80
-window-height = 24
-
-# Cursor
-cursor-style = block
-cursor-color = #ffffff
-cursor-style-blink = true
-
-# Scrollback and behavior
-confirm-close-surface = true
-mouse-hide-while-typing = true
-
 # Window size
 window-width = 94
 window-height = 57
+window-theme = "dark"
+window-padding-x = 5
+window-padding-y = 5
+cursor-style = "block"
 
 # Working dir
 window-inherit-working-directory = false
 
+background = "#000000"
+foreground = "#00ff00"
+selection-foreground = "#000000"
+selection-background = "#00ff00"
+
+# Standard colors (0-7)
+palette = 0=#000000
+palette = 1=#990000
+palette = 2=#00a600
+palette = 3=#999900
+palette = 4=#0000b2
+palette = 5=#b200b2
+palette = 6=#00a6b2
+palette = 7=#bfbfbf
+
+# Bright colors (8-15)
+palette = 8=#666666
+palette = 9=#e50000
+palette = 10=#00d900
+palette = 11=#e5e500
+palette = 12=#0000ff
+palette = 13=#e500e5
+palette = 14=#00e5e5
+palette = 15=#e5e5e5
+
+# Terminal behavior
+mouse-hide-while-typing = true
+copy-on-select = false
 
