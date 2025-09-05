@@ -10,14 +10,14 @@ cursor-style = "block"
 window-inherit-working-directory = false
 
 background = "#000000"
-foreground = "#00ff00"
+foreground = "#ffffff"
 selection-foreground = "#000000"
 selection-background = "#00ff00"
 
 # Standard colors (0-7)
 palette = 0=#000000
-palette = 1=#990000
-palette = 2=#00a600
+palette = 1=#ff0000
+palette = 2=#00ff00
 palette = 3=#999900
 palette = 4=#0000b2
 palette = 5=#b200b2
@@ -26,8 +26,8 @@ palette = 7=#bfbfbf
 
 # Bright colors (8-15)
 palette = 8=#666666
-palette = 9=#e50000
-palette = 10=#00d900
+palette = 9=#ff3333
+palette = 10=#33ff33
 palette = 11=#e5e500
 palette = 12=#0000ff
 palette = 13=#e500e5
@@ -37,4 +37,11 @@ palette = 15=#e5e5e5
 # Terminal behavior
 mouse-hide-while-typing = true
 copy-on-select = false
+
+# Split divider
+split-divider-color = #ffffff
+
+# Font
+font-family = "Menlo"
+keybind = shift+enter=text:\n
 

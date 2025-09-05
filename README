@@ -1,0 +1,6 @@
+Setup: setup files, dotfiles and other useful things.
+
+Requires: curl, git, vim, tmux
+
+Install zsh+ohmyzsh: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
